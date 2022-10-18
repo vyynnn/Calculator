@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(50deg, #1D1CE5,#4649FF,#7978FF,#C47AFF);
+    display: grid;
+    place-content: center;
+}
+
+img{
+    position: absolute;
+    height: 3rem;
+}
+
+.calculator{
+    width: 350px;
+    min-height: 70vh;
+    padding: 3rem;
+    background: linear-gradient(150deg, #FFF5E4, #FFD1D1, #FF9494);
+    box-shadow: 0px 0px 45px 27px rgba(153,153,153,1);
+    border-radius: 20px;
+}
+
+.calculator .answers{
+    min-height: 100px;
+    color: brown;
+    font-weight: 900;
+}
+
+.calculator p{
+    text-align: right;
+    min-height: 50px;
+    padding: 10px;
+}
+
+/* Row one */
+.rowOne{
+    gap: 15px;
+    display: flex;
+}
+
+.rowOne button{
+    padding: 15px;
+    display: grid;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    background: #abaaaa;
+    box-shadow: 1px 5px 8px #7b7a7a,
+            -1px -5px 8px #dbdada;
+    font-weight: 700;
+}
+
+/* Row Two */
+.rowTwo{
+    gap: 15px;
+    display: flex;
+}
+
+.rowTwo button{
+    padding: 15px;
+    display: grid;
+    width: 70px;
+    border: none;
+    font-weight: 700;
+    margin-top: 15px;
+    border-radius: 20px;
+    background: #abaaaa;
+    box-shadow: 1px 5px 8px #7b7a7a,
+            -1px -5px 8px #dbdada;
+}
+
+/* Row Three */
+.rowThree{
+    gap: 15px;
+    display: flex;
+}
+
+.rowThree button{
+    padding: 15px;
+    display: grid;
+    width: 70px;
+    border: none;
+    font-weight: 700;
+    margin-top: 15px;
+    border-radius: 20px;
+    background: #abaaaa;
+    box-shadow: 1px 5px 8px #7b7a7a,
+            -1px -5px 8px #dbdada;
+}
+
+/* Row Four */
+.rowFour{
+    gap: 15px;
+    display: flex;
+}
+
+.rowFour button{
+    padding: 15px;
+    display: grid;
+    width: 70px;
+    border: none;
+    font-weight: 700;
+    margin-top: 15px;
+    border-radius: 20px;
+    background: #abaaaa;
+    box-shadow: 1px 5px 8px #7b7a7a,
+            -1px -5px 8px #dbdada;
+}
+
+/* Row Five */
+.rowFive{
+    gap: 15px;
+    display: flex;
+}
+
+.rowFive button{
+    padding: 15px;
+    display: grid;
+    width: 70px;
+    border: none;
+    font-weight: 700;
+    margin-top: 15px;
+    border-radius: 20px;
+    background: #abaaaa;
+    box-shadow: 1px 5px 8px #7b7a7a,
+            -1px -5px 8px #dbdada;
+}
+
+.rowFive button{
+    flex: 1;
+}
+
+button:hover{
+    background: #7b7a7a;
+    transition: .5s;
+}
+
+
+
